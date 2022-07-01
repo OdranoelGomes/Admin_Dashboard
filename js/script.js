@@ -1,5 +1,5 @@
 
-// MenuToggle
+// MenuToggle - Animação
 
 let toggle = document.querySelector('.toggle');
 let navigation = document.querySelector('.navigation');
