@@ -1,4 +1,15 @@
 
+// MenuToggle
+
+let toggle = document.querySelector('.toggle');
+let navigation = document.querySelector('.navigation');
+let main = document.querySelector('.main');
+
+toggle.onclick = function(){
+    navigation.classList.toggle('active')
+    main.classList.toggle('active')
+}
+
 // adicionar classe hoverred é selecionado item da lista
 
 let list = document.querySelectorAll('.navigation li');
